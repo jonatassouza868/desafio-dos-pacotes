@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>desafio</title>
+    <link rel="stylesheet" href="desafio.css" />
+  </head>
+  <body>
+    <header>
+      <h1>SyncTur</h1>
+    </header>
+
+    <main>
+      <div class="cadastrar_pacotes">
+        <h2>Cadastrar pacotes</h2>
+      </div>
+      <div class="tudo">
+        <div class="card1">
+          <div class="pacote">
+            <label for="Pacote">Pacote</label><br />
+            <input
+              type="text"
+              id="nome"
+              placeholder="Digite seu nome completo"
+            />
+            <br />
+          </div>
+          <div class="lateral">
+          <div class="status">
+            <label for="status">Status do pacote</label><br />
+            <input type="checkbox" id="ativo" /><label for="Ativo">Ativo</label>
+            <br />
+            <input type="checkbox" id="inativo" /><label for="inativo">Inativo</label>
+            
+          </div>
+          <div class="data">
+            <label for="data_da_viagem">Data da Viajem</label><br />
+            <input type="date" id="dataDeViajem" placeholder="Data" />
+          </div>
+        </div>
+        </div>
+        <div class="card2">
+          <div class="descriçao">
+            <label for="descriçao">Descrição</label><br />
+            <input id="descriçao" type="text" placeholder=" descrição do pacote" />
+          </div>
+        </div>
+        <br />
+      </div>
+      <div class="btn_cadastrar">
+        <button id="cadastrar" type="submit" class="botao" onclick="Cadastrar()">Cadastrar</button>
+      </div>
+
+      <!-- <div class="cardX">
+        <h2>Pacote X</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
+          exercitationem dolorem officiis quaerat cum
+        </p>
+        <br />
+        <p>Data da Viagem: 17/09/2022</p>
+
+        <button id="editar" type="submit" class="editar">editar</button>
+        <button id="excluir" type="reset" class="excluir">excluir</button>
+      </div> -->
+      <div class="pacote" id="pacote"></div>
+
+      <br />
+
+      <footer>
+       
+        <p class="synctur">SyncTur</p>
+        <p>
+          <div class="linha"></div>
+          Company Inc., 8901 Marmora Road, Glasgow, D04 89GR
+          <br />
+          Call us now toll free: (800)2345-6789
+          <br />
+          Customer support: support@demolink.org
+
+          <br />
+          Skype: sample-username
+        </p>
+    
+      </footer>
+    </main>
+
+    <script src="desafio.js"></script>
+  </body>
+</html>
