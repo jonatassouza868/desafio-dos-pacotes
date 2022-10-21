@@ -45,6 +45,7 @@ input{
     width: 109px;
     height: 39px;
     margin-top: 50px;
+    border-radius: 5px;
 }
 .descriçao{
     border-left: 20px;
